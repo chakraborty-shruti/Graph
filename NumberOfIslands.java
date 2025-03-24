@@ -60,3 +60,14 @@ class Test{
 
 /*Time complexity: O(n*m)
 Auxiliary Space: O(n*m) due to stack space. */
+
+/*Given a binary 2D matrix of size n*m, find the number of islands. A group of connected 1s forms an island.
+
+Example:
+
+Input: M[][] = {{‘1’, ‘1’, ‘0’, ‘0’, ‘0’},
+                {‘0’, ‘1’, ‘0’, ‘0’, ‘1’},
+                {‘1’, ‘0’, ‘0’, ‘1’, ‘1’},
+                {‘0’, ‘0’, ‘0’, ‘0’, ‘0’},
+                {‘1’, ‘0’, ‘1’, ‘1’, ‘0’}}
+Output: 4 */
