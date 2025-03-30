@@ -16,7 +16,7 @@ class Test{
             //If an adjacent vertex is not visited, then recur for that adjacent
             if(visited[i] == false){
 
-                if(isCyclicUtil(v, adj, visited, parent)) return true;
+                if(isCyclicUtil(i, adj, visited, v)) return true;
             }
             // // If an adjacent vertex is visited and
             // is not parent of current vertex,
